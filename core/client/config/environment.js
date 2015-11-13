@@ -30,6 +30,10 @@ module.exports = function (environment) {
             heightSensitive: false,
             widthSensitive: true,
             injectionFactories: []
+        },
+
+        intl: {
+            defaultLocale: 'en'
         }
     };
 
